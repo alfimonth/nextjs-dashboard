@@ -1,0 +1,26 @@
+# Direktori node_modules atau vendor (agar lebih ringan)
+node_modules/
+vendor/
+
+# File konfigurasi & kredensial
+.env
+*.env
+
+# Direktori log dan cache
+logs/
+cache/
+debug.log
+
+# File Git
+.git
+.gitignore
+
+# File editor & sistem
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# File Docker yang tidak diperlukan
+.dockerignore
+docker-compose.yml
